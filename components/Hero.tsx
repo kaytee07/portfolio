@@ -34,7 +34,7 @@ const Hero = () => {
             text-center text-blue-100 max-w-80">
               Dynamic web Magic with Next.js
             </h2>
-            
+
              <TextGenerateEffect 
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
               words={words} />
