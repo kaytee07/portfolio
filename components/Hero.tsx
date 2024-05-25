@@ -43,7 +43,7 @@ const Hero = () => {
               name="Show my work"
               icon={<FaLocationArrow />}
               position="right"
-              handleClick={() => {}}
+              // handleClick={() => {}}
               />
               
           </div>
