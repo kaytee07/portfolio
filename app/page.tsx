@@ -5,6 +5,7 @@ import React from 'react'
 import { FaHome } from 'react-icons/fa'
 import RecentProject from '@/components/RecentProject'
 import { navItems } from '@/data'
+import Client from '@/components/Client'
 
 const Home = () => {
   // const items = [
@@ -39,6 +40,7 @@ const Home = () => {
             <Hero/>
             <Grid/>
             <RecentProject/>
+            <Client/>
         </div>
       </main>
   )
