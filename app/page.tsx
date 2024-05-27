@@ -7,32 +7,15 @@ import RecentProject from '@/components/RecentProject'
 import { navItems } from '@/data'
 import Client from '@/components/Client'
 import Experience from '@/components/Experience'
+import Process from '@/components/Process'
+import Footer from '@/components/Footer';
 
 const Home = () => {
-  // const items = [
-  //   {
-  //     name: "Home",
-  //     link: "/",
-  //     icon: <FaHome />,
-  //   },
-  //   {
-  //     name: "About",
-  //     link: "/about",
-  //     icon: <FaHome/>,
-  //   },
-  //   {
-  //     name: "Contact",
-  //     link: "/contact",
-  //     icon: (
-  //       <FaHome />
-  //     ),
-  //   },
-  // ];
 
   return (
       <main className="relative bg-black-100
       flex justify-center items-center flex-]
-      overflow-hidden mx-auto sm:px-10 px-5">
+      mx-auto sm:px-10 px-5 overflow-clip">
         <div className="max-w-7xl w-full">
           <FloatingNav
           navItems={navItems}
@@ -42,6 +25,8 @@ const Home = () => {
             <RecentProject/>
             <Client/>
             <Experience/>
+            <Process/>
+            <Footer/>
         </div>
       </main>
   )
