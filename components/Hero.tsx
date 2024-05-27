@@ -6,7 +6,7 @@ import { FaLocationArrow } from 'react-icons/fa'
 
 const Hero = () => {
   const words = `Hey there, I'm Taylor. 
-  I transforming concepts into reality
+  I transform concepts into reality
 `;
   return (
     <div className="pb-20 pt-36">
